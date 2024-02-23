@@ -19,16 +19,16 @@ idna==3.6
 installer==0.7.0
 jaraco.classes==3.3.1
 keyring==24.3.0
-mkl-fft @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/mkl_fft_1699240945874/work
-mkl-random @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/mkl_random_1699239515205/work
+mkl-fft==1.3.8
+mkl-random==1.2.4
 mkl-service==2.4.0
 more-itertools==10.2.0
 msgpack==1.0.7
-numexpr @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/numexpr_1699258484110/work
-numpy @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_97k4h5q73m/croot/numpy_and_numpy_base_1704311708477/work/dist/numpy-1.26.3-cp312-cp312-macosx_10_9_x86_64.whl#sha256=c3aedcdd617b81b52738eb143478a889436d17dcc350508ffb722fca3f6596e0
+numexpr==2.8.7
+numpy==1.26.3
 openpyxl==3.1.2
 packaging==23.2
-pandas @ file:///private/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_80pc5xjc2v/croot/pandas_1702317994691/work/dist/pandas-2.1.4-cp312-cp312-macosx_10_9_x86_64.whl#sha256=3eb67228f50b9e8d5582980f2be6c270d3bf7a66c1f08a7514dc2daaa6de26d6
+pandas==2.1.4
 pexpect==4.9.0
 pkginfo==1.9.6
 platformdirs==3.11.0
@@ -40,20 +40,20 @@ pycparser==2.21
 pydantic==2.6.1
 pydantic_core==2.16.2
 pyproject_hooks==1.0.0
-python-dateutil @ file:///tmp/build/80754af9/python-dateutil_1626374649649/work
-pytz @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/pytz_1699244189577/work
+python-dateutil==2.8.2
+pytz==2023.3.post1
 rapidfuzz==3.6.1
 requests==2.31.0
 requests-toolbelt==1.0.0
 setuptools==68.2.2
 shellingham==1.5.4
-six @ file:///tmp/build/80754af9/six_1644875935023/work
+six==1.16.0
 sniffio==1.3.0
 starlette==0.36.3
 tomlkit==0.12.3
 trove-classifiers==2024.1.31
 typing_extensions==4.9.0
-tzdata @ file:///croot/python-tzdata_1690578112552/work
+tzdata==2023d
 urllib3==2.2.1
 uvicorn==0.27.1
 virtualenv==20.25.0
