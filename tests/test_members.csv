@@ -1,0 +1,10 @@
+memberId,lastTransatcionUtcTs,lastTransactionType,lastTransactionPointsBought,lastTransactionRevenueUSD
+1,2023-12-10 11:24:18,buy,100,10.0
+1,2020-12-22 14:40:25,gift,200,20.0
+2,2022-06-13 17:16:38,redeem,300,30.0
+2,2020-11-08 11:37:48,gift,400,40.0
+2,2022-10-13 13:19:55,redeem,500,50.0
+3,2021-11-07 06:20:36,buy,600,60.0
+3,2019-01-25 04:00:33,gift,700,70.0
+3,2022-02-04 06:26:30,buy,800,80.0
+3,2020-06-27 21:48:28,gift,900,90.0
