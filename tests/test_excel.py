@@ -70,7 +70,7 @@ class TestExcelFunctions(unittest.TestCase):
         # Call the function
         # Get the full path to the directory containing the script
         # script_directory = os.path.dirname(os.path.abspath(__file__))
-        script_directory = os.getcwd()
+        script_directory = Path(os.getcwd())
         parent_directory = script_directory.parent.absolute()
 
         # Construct the full path to the CSV file
