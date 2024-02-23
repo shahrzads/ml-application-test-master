@@ -1,6 +1,7 @@
 import unittest
 from unittest.mock import patch, Mock
 import pandas as pd
+from pathlib import Path
 import os
 
 from src.excel import flatten_dict, convert_object_to_dict, excel_save
@@ -68,10 +69,12 @@ class TestExcelFunctions(unittest.TestCase):
     def test_excel_save_existing_file(self, mock_read_excel, mock_to_excel, mock_summarize):
         # Call the function
         # Get the full path to the directory containing the script
-        script_directory = os.path.dirname(os.path.abspath(__file__))
+        # script_directory = os.path.dirname(os.path.abspath(__file__))
+        script_directory = os.getcwd()
+        parent_directory = script_directory.parent.absolute()
 
         # Construct the full path to the CSV file
-        csv_file_path = os.path.join(script_directory.parent(), 'test_members.csv')
+        csv_file_path = os.path.join(parent_directory, 'test_members.csv')
         excel_save(1, csv_file_path)
 
         # Assertions
