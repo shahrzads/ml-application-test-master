@@ -1,6 +1,5 @@
 annotated-types==0.6.0
 anyio==4.3.0
-Bottleneck @ file:///Users/builder/cbouss/perseverance-python-buildout/croot/bottleneck_1699265217545/work
 build==1.0.3
 CacheControl==0.13.1
 certifi==2024.2.2
