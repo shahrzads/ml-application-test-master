@@ -389,26 +389,28 @@ if __name__ == "__main__":
     member_data, read_data_latency = read_member_data(path + '/member_data.csv')
     # print('member_data dataset head: ', member_data.head())
 
-    avg_points_bought, avg_points_bought_latency = calculate_avg_points_bought(member_data, 'FB608F11')
+    member_id = input('Enter the member_id: ')
+
+    avg_points_bought, avg_points_bought_latency = calculate_avg_points_bought(member_data, member_id)
     print('avg points bought: ', avg_points_bought)
 
-    avg_revenue_usd, avg_revenue_usd_latency = calculate_avg_revenue_usd(member_data, '5D72524D')
+    avg_revenue_usd, avg_revenue_usd_latency = calculate_avg_revenue_usd(member_data, member_id)
     print('avg revenue USD: ', avg_revenue_usd)
 
-    last_3_transactions_avg_points_bought, last_3_transactions_avg_points_bought_latency = calculate_last_3_transactions_avg_points_bought(member_data, '5D72524D')
+    last_3_transactions_avg_points_bought, last_3_transactions_avg_points_bought_latency = calculate_last_3_transactions_avg_points_bought(member_data, member_id)
     print('last 3 transactions avg points bought: ', last_3_transactions_avg_points_bought)
 
-    last_3_transactions_avg_revenue_usd, last_3_transactions_avg_revenue_usd_latency = calculate_last_3_transactions_avg_revenue_usd(member_data, '5D72524D')
+    last_3_transactions_avg_revenue_usd, last_3_transactions_avg_revenue_usd_latency = calculate_last_3_transactions_avg_revenue_usd(member_data, member_id)
     print('last 3 transactions avg revenue USD: ', last_3_transactions_avg_revenue_usd)
 
-    pct_buy_transactions, pct_buy_transactions_latency = calculate_pct_buy_transactions(member_data, '5D72524D')
+    pct_buy_transactions, pct_buy_transactions_latency = calculate_pct_buy_transactions(member_data, member_id)
     print('pct buy transactions: ', pct_buy_transactions)
 
-    pct_gift_transactions, pct_gift_transactions_latency = calculate_pct_gift_transactions(member_data, '5D72524D')
+    pct_gift_transactions, pct_gift_transactions_latency = calculate_pct_gift_transactions(member_data, member_id)
     print('pct gift transactions: ', pct_gift_transactions)
 
-    pct_redeem_transactions, pct_redeem_transactions_latency = calculate_pct_redeem_transactions(member_data, '5D72524D')
+    pct_redeem_transactions, pct_redeem_transactions_latency = calculate_pct_redeem_transactions(member_data, member_id)
     print('pct redeem transactions: ', pct_redeem_transactions)
 
-    days_sicne_last_transaction, days_sicne_last_transaction_latency = calcualte_days_sicne_last_transaction(member_data, '5D72524D')
+    days_sicne_last_transaction, days_sicne_last_transaction_latency = calcualte_days_sicne_last_transaction(member_data, member_id)
     print('days since last transaction: ', days_sicne_last_transaction)
