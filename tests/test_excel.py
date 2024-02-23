@@ -71,7 +71,7 @@ class TestExcelFunctions(unittest.TestCase):
         script_directory = os.path.dirname(os.path.abspath(__file__))
 
         # Construct the full path to the CSV file
-        csv_file_path = os.path.join(script_directory, 'test_members.csv')
+        csv_file_path = os.path.join(script_directory.parent(), 'test_members.csv')
         excel_save(1, csv_file_path)
 
         # Assertions
