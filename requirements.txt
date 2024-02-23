@@ -50,7 +50,6 @@ starlette==0.36.3
 tomlkit==0.12.3
 trove-classifiers==2024.1.31
 typing_extensions==4.9.0
-tzdata==2023d
 urllib3==2.2.1
 uvicorn==0.27.1
 virtualenv==20.25.0
