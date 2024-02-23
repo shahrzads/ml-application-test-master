@@ -1,5 +1,5 @@
-# ML Application Engineer Take-Home Exam
-This is the solution to ML Application Engineer take-home assignment.
+# ML Application Engineer Take-Home Exam Solution
+This is the solution to the ML Application Engineer take-home assignment.
 
 The assignment includes building a low-latency process that will process data, run the endpoints within the `app.py` file in a local application server, send it to ML Endpoints to get predictions, send those prediction results to offers endpoint to get which offers to give to which members, and finally record the results. 
 
