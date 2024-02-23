@@ -76,8 +76,10 @@ def excel_save(member_id, dataset_file):
 
     # convert dictionary to pandas dataframe
     new_df = pd.DataFrame(data = final_dict, index = [0])
-    # write pandas dataframe to excel file
-    xlsx_path = './member_process.xlsx'
+    # write pandas dataframe to excel file 
+    # it is test_member_process to do the unit test
+    # if not testing, user can enter the path
+    xlsx_path = './test_member_process.xlsx'
     if os.path.exists(xlsx_path):
         # if the file exists, read it into a dataframe
         existing_df = pd.read_excel(xlsx_path, index_col= [0])
